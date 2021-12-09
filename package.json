@@ -1,0 +1,28 @@
+{
+  "name": "@loghouse/pino-browser",
+  "version": "1.0.0",
+  "description": "A transmit for pino that sends browser logs to the Loghouse.io",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "jest"
+  },
+  "authors": [
+    {
+      "name": "Loghouse.io",
+      "email": "support@loghouse.io"
+    }
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
+    "babel-jest": "^27.4.0",
+    "jest": "^27.3.1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@loghouse/http-transport": "^1.0.0",
+    "pino": "^7.5.0"
+  }
+}
